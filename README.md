@@ -1,0 +1,43 @@
+# JunglerS
+Compiler test
+
+## Jungler Scripting Language
+This is simply a project i made at school.
+
+## Usage
+### Syntax
+This language is kinda different from the others, string is written differently, closure, and more...
+
+* print at console
+```sh
+fonction yea(yas, yo);
+print(yo);
+print(yas);
+fend;
+yea(.fdfdg., .ye.);
+print(yas);
+stop
+```
+
+## Features
+-Support variable(s)
+-Support closure(s)
+-Support custom closure(s)
+-Print, Exit, and more...
+-Operations (+, -, *, /)
+
+## To-Do list
+- more internal fcts
+- remove closure name by ids
+- if else statement?
+- boolean (or simply vars type)
+- make func return; // hardest one prob
+- loops while and for or combined?
+- make operations in parser, not optimiser
+- optimisation better for less instr
+- optimisation in the code
+- use less strings
+- add error handler
+
+## Bugs
+- PEMDAS for operations
