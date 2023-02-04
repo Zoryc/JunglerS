@@ -1,7 +1,5 @@
 # Jungler 
 A compact and tiny scripting language ported in the JVM
-
-## Jungler Scripting Language
 This is simply a project i made at school.
 
 ## Usage
