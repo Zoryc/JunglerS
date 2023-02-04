@@ -20,11 +20,11 @@ stop
 ```
 
 ## Features
--Support variable(s)
--Support closure(s)
--Support custom closure(s)
--Print, Exit, and more...
--Operations (+, -, *, /)
+- Support variable(s)
+- Support closure(s)
+- Support custom closure(s)
+- Print, Exit, and more...
+- Operations (+, -, *, /)
 
 ## To-Do list
 - more internal fcts
