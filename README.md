@@ -8,11 +8,11 @@ This is simply a project i made at school.
 ### Syntax
 This language is kinda different from the others, string is written differently, closure, and more...
 
-* print at console
+### Examples
 ```sh
 fonction yea(yas, yo);
-print(yo);
-print(yas);
+  print(yo);
+  print(yas);
 fend;
 yea(.fdfdg., .ye.);
 print(yas);
