@@ -1,5 +1,5 @@
-/*
-    420-201 – ScriptStack
+package zothers;/*
+    420-201 – Others.ScriptStack
     Date : 2022-11-10
     Groupe : 2 – lundi & jeudi
     Nom : Piche
@@ -7,17 +7,14 @@
     DA : 2241035
 */
 
-package Projets.yaboi_compiler;
-
-import Projets.yaboi_compiler.Misc.Closure;
-import Projets.yaboi_compiler.Misc.FuncBody;
-import Projets.yaboi_compiler.Misc.LocVar;
-import Projets.yaboi_compiler.Utilities.ArrayUtilities;
+import structures.Closure;
+import structures.FuncBody;
+import structures.LocVar;
+import tools.ArrayUtilities;
 
 public class ScriptStack {
     private final static Object[] STACK_DEFAULT = {};
     private Object[] rawStack;
-    private Object[] closureList;
     public Object[] getRawStack() {
         return rawStack;
     }
@@ -47,6 +44,14 @@ public class ScriptStack {
     }
 
     public void remElement(Object ob) {
+        int stLen = rawStack.length;
+        Object newStack[] = new Object[stLen - 1];
+
+        for (int i = 0, e = 0; i < stLen; i++) {
+            if (!ob.equals(rawStack[i])) { //verify just address
+                newStack[e++] = rawStack[i];
+            }
+        }
     }
 
     void showDebug() {
@@ -66,6 +71,8 @@ public class ScriptStack {
                     ((LocVar) rawStack[i]).showVars();
                 } else if (rawStack[i].getClass() == Closure.class) {
                     ((Closure) rawStack[i]).showDebug();
+                } else {
+                    System.out.println("Unidentified");
                 }
             }
         }

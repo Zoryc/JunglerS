@@ -1,4 +1,4 @@
-package Projets.yaboi_compiler.Misc;
+package structures;
 /*
     420-201 – FonctionCl
     Date : 2022-11-03
@@ -8,11 +8,13 @@ package Projets.yaboi_compiler.Misc;
     DA : 2241035
 */
 
+import java.util.Arrays;
+
 public class FuncBody {
     private String nmFct;
-    private Object[] params;
+    private LocVar[] params;
 
-    public Object[] getParams() {
+    public LocVar[] getParams() {
         return params;
     }
 
@@ -20,7 +22,7 @@ public class FuncBody {
         return nmFct;
     }
 
-    public FuncBody(String name, Object[] arg) {
+    public FuncBody(String name, LocVar[] arg) {
         this.nmFct = name;
         this.params = arg;
     }
@@ -28,7 +30,7 @@ public class FuncBody {
     public void fctInfo() {
         System.out.printf("CALL: %s, ", nmFct);
         for (int i = 0; i < params.length; i++) {
-            System.out.printf("PARAMS[%d]: %s" + (((params.length - 1) - i == 0) ? "" : ", "), i, params[i].toString());
+            System.out.printf("PMS[%d]: %s" + (((params.length - 1) - i == 0) ? "" : ", "), i, params[i].getName());
         }
         System.out.println();
     }

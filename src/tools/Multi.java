@@ -6,9 +6,9 @@
     Prénom : Zakari
     DA : 2241035
 */
-package Projets.yaboi_compiler.Utilities;
+package tools;
 
-public class Utilities {
+public class Multi {
 
     public static boolean isExactChar(char c1, char c2) {
         return c1 == c2;
@@ -34,5 +34,7 @@ public class Utilities {
         }
         return res;
     }
+
+
 
 }

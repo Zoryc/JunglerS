@@ -1,11 +1,10 @@
-package Projets.yaboi_compiler.Misc;
+package structures;
 
 public class Closure {
     private String[] scb;
     private String[] pms;
     private String name;
     private int posStack;
-    private boolean isInternal;
 
     public String getName() {
         return name;
@@ -20,7 +19,6 @@ public class Closure {
     }
 
     public void setScb(String[] scb) {
-        isInternal = (scb.length == 0) ? true : false;
         this.scb = scb;
     }
 
@@ -32,6 +30,6 @@ public class Closure {
     }
 
     public void showDebug() {
-
+        System.out.println("CLOSURE: name: " + name);
     }
 }

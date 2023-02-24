@@ -6,17 +6,19 @@
     Prénom : Zakari
     DA : 2241035
 */
-package Projets.yaboi_compiler.Misc;
+package structures;
+
+import lexique.GlobalTypes;
 
 public class LocVar {
-    private static final String TYPE_DEFAULT = "null";
+    private static final GlobalTypes.gType TYPE_DEFAULT = GlobalTypes.gType.unknow;
     private static final String NAME_DEFAULT = "null";
     private static final String VALUE_DEFAULT = "null";
-    private String type;
+    private GlobalTypes.gType type;
     private String name;
     private Object value;
 
-    public String getType() {
+    public GlobalTypes.gType getType() {
         return type;
     }
 
@@ -28,16 +30,20 @@ public class LocVar {
         return value;
     }
 
+    public void setValue(Object value) {
+        this.value = value;
+    }
+
     public LocVar() {
         this(TYPE_DEFAULT, NAME_DEFAULT, VALUE_DEFAULT);
     }
 
-    public LocVar(String type, String name, Object val) {
-        this.type = type.trim();
+    public LocVar(GlobalTypes.gType type, String name, Object val) {
+        this.type = type;
         this.name = name.trim();
         this.value = val.toString().trim();
     }
     public void showVars() {
-        System.out.printf("VAR TYPE: %s, NAME: %s, VAL: %s\n", type, name, value.toString().trim());
+        System.out.printf("LOC: %s, NAME: %s, VAL: %s\n", type.toString(), name, value.toString());
     }
 }

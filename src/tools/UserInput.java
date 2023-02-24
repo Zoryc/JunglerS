@@ -6,12 +6,11 @@
     Prénom : Zakari
     DA : 2241035
 */
-package Projets.yaboi_compiler.Utilities;
+package tools;
 
 import java.util.Scanner;
 
 public class UserInput {
-
     public static String getUserText() {
         String responseInput = new String();
         String text = new String();

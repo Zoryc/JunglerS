@@ -1,6 +1,5 @@
-package Projets.yaboi_compiler;
-/*
-    420-201 – CodeGeneration
+package zothers;/*
+    420-201 – Others.CodeGeneration
     Date : 2022-11-03
     Groupe : 2 – lundi & jeudi
     Nom : Piche
@@ -10,6 +9,7 @@ package Projets.yaboi_compiler;
 
 public class CodeGeneration {
     public CodeGeneration() {
+
     }
 
     private void generateConstante() {

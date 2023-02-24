@@ -6,9 +6,9 @@
     Prénom : Zakari
     DA : 2241035
 */
-package Projets.yaboi_compiler.Lexique;
+package lexique;
 
-import Projets.yaboi_compiler.Utilities.StringArray;
+import tools.StringArray;
 
 public class Declaration {
     static String[] dictFcl = {

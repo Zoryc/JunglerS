@@ -7,14 +7,16 @@
     DA : 2241035
 */
 
-package Projets.yaboi_compiler.SeparateLoader;
+package separateloader;
 
-import Projets.yaboi_compiler.Misc.ThrClosure;
+import structures.JVMClosure;
 
 public class Environnements {
-    private ThrClosure[] envList;
+    private JVMClosure[] envList;
+    private int counter = 0;
+
     public Environnements() {
-        envList = new ThrClosure[1];
+        envList = new JVMClosure[2];
     }
 
     public boolean isPresent(String str) {
@@ -26,11 +28,11 @@ public class Environnements {
         return res;
     }
 
-    public void addInClosures(ThrClosure cl) {
-        envList[0] = cl;
+    public void addInClosures(JVMClosure cl) {
+        envList[counter++] = cl;
     }
 
-    public ThrClosure getClosure(String name) {
+    public JVMClosure getClosure(String name) {
         for (int i = 0; i < envList.length; i++) {
             if (envList[i].getName().equals(name))
                 return envList[i];

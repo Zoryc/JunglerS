@@ -1,28 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8c49e41-af54-47d7-a764-04eb1040cf72" name="Changes" comment="" />
+    <list default="true" id="a8c49e41-af54-47d7-a764-04eb1040cf72" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structures/ReturnVal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structures/SArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zothers/CodeGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lexique/Declaration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lexique/Declaration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lexique/GlobalTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lexique/GlobalTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Misc/Closure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/Closure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Misc/FuncBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/FuncBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Misc/LocVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/LocVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Misc/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lexique/Operations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Misc/ThrClosure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/JVMClosure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Optimiser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zothers/Optimiser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zothers/ExpressionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScriptStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zothers/ScriptStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SeparateLoader/Environnements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/separateloader/Environnements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SeparateLoader/Execution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/separateloader/Execution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SeparateLoader/VirtualMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/separateloader/VirtualMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/ArrayUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/ArrayUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/StringArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/StringArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/Multi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YaBoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JunglerZone.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2LFrWzFTWTuXp8e7hv0msbvcAY4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="JunglerZone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JunglerZone" />
+      <module name="JunglerS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JunglerZone" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,7 +92,69 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675477707805</updated>
+      <workItem from="1675477709026" duration="9300000" />
+      <workItem from="1675534113377" duration="7000" />
+      <workItem from="1675534161245" duration="1237000" />
+      <workItem from="1675547691715" duration="9000" />
+      <workItem from="1675652703947" duration="1022000" />
+      <workItem from="1675657411310" duration="852000" />
+      <workItem from="1675810806228" duration="649000" />
+      <workItem from="1675833581254" duration="1099000" />
+      <workItem from="1675834768385" duration="138000" />
+      <workItem from="1675918656371" duration="3453000" />
+      <workItem from="1675980292141" duration="3517000" />
+      <workItem from="1676178440287" duration="3358000" />
+      <workItem from="1676262152398" duration="2705000" />
+      <workItem from="1676346726584" duration="118000" />
+      <workItem from="1676436737736" duration="1050000" />
+      <workItem from="1676517725151" duration="233000" />
+      <workItem from="1677035192498" duration="3797000" />
+      <workItem from="1677040695411" duration="58000" />
+      <workItem from="1677207776327" duration="4149000" />
+      <workItem from="1677271186917" duration="345000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/zothers/ExpressionParser.java</url>
+          <line>235</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="tools.StringArray" memberName="arr" />
+        <PinnedItemInfo parentTag="structures.FuncBody" memberName="params" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="funcB" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JunglerS$JunglerZone.ic" NAME="JunglerZone Coverage Results" MODIFIED="1675485214395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -6,7 +6,7 @@
     Prénom : Zakari
     DA : 2241035
 */
-package Projets.yaboi_compiler.SeparateLoader;
+package separateloader;
 
 public class VirtualMachine {
 
