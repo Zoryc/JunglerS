@@ -19,10 +19,15 @@ stop
 
 ## Features
 - Support variable(s)
+- Variables types (bool, number, text, unknow)
 - Support closure(s)
 - Support custom closure(s)
 - Print, Exit, and more...
 - Operations (+, -, *, /)
+- Error handler
+- Closure can return value
+- Arrays support
+
 
 ## To-Do list
 - more internal fcts
