@@ -41,6 +41,7 @@ stop
 - optimisation in the code
 - use less strings
 - add error handler
+- add real virtual machine
 
 ## Bugs
 - PEMDAS for operations
